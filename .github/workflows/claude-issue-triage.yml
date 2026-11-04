@@ -89,6 +89,19 @@ jobs:
                ### Riesgos / preguntas abiertas
                <información faltante, casos borde o dudas para el autor del issue>
 
+               Formato del comentario: debe ser Markdown válido que GitHub renderice correctamente
+               (GitHub Flavored Markdown):
+               - Escribe las líneas del archivo sin sangría inicial (empezando en la columna 0); una
+                 sangría de 4 espacios convierte el texto en bloque de código.
+               - Deja una línea en blanco antes y después de cada encabezado, lista y bloque de código.
+               - Usa listas con "-", checkboxes con "- [ ]" y `backticks` para rutas, funciones y
+                 variables.
+               - Usa bloques de código con triple backtick e indica el lenguaje (```js, ```css, ```html).
+               - Para que "Tipo", "Labels", "Prioridad" y "Complejidad" salgan en líneas separadas,
+                 termina cada una con dos espacios o déjalas como elementos de una lista.
+               - No envuelvas todo el comentario en un bloque de código y no uses HTML salvo que sea
+                 imprescindible.
+
             No modifiques archivos del repositorio ni crees ramas o pull requests: solo labels y el
             comentario de diagnóstico.
           claude_args: |
