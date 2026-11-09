@@ -1,0 +1,15 @@
+Toggle Light Dark
+
+En nuestra aplicacion, ocupamos implementar un toggle de light y dark. 
+Por defecto tiene que estar en modo oscuro pero el switch debe cambiar
+el juego a modo light.
+
+Power-ups aleatorios
+
+Cada cierto número de líneas aparece una pieza especial con efecto:
+
+g
+Rayo — limpia fila/columna completa
+Tinte — convierte todos los bloques de un color en comodines
+Gravedad — compacta huecos del tablero
+Congelar — pausa la caída durante 5s
